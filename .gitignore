@@ -1,0 +1,34 @@
+# --- Veri (büyük / lisanslı dosyalar repoya girmez) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.parquet
+creditcard.csv
+
+# --- Gizli bilgiler ---
+kaggle.json
+.env
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Jupyter / Colab ---
+.ipynb_checkpoints/
+
+# --- Geçici sonuçlar ---
+results/tmp/
+
+# --- Editör / işletim sistemi ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
