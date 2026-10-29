@@ -1,0 +1,11 @@
+# İlk çalışan kurulumdan sonra sürümler `pip freeze` ile sabitlenecek (tekrar üretilebilirlik).
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+xgboost
+yfinance
+scipy
+matplotlib
+seaborn
+jupyter
