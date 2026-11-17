@@ -19,7 +19,7 @@ Ham veri dosyaları repoya yüklenmez (`.gitignore`). Her üye aşağıdaki adı
 - **İçerik:** 284.807 işlem, 492 dolandırıcılık (%0,172); Time, V1–V28 (PCA), Amount, Class
 - **Dosya:** `data/raw/creditcard.csv` (~144 MB; GitHub'ın 100 MB dosya sınırını aştığı için repoya yüklenemez)
 - **İndirme tarihi:** 17.11.2026
-- **Nasıl indirildi:** Kaggle girişi gerektirdiği için Google'ın TensorFlow yansısından (`storage.googleapis.com/download.tensorflow.org/data/creditcard.csv`) indirildi. Boyut (150.828.752 bayt), satır ve sütun sayısı (284.807 × 31) Kaggle sürümüyle uyuşuyor. Kaggle'dan indirilen dosyanın özeti bununla karşılaştırılmalı.
+- **Nasıl indirildi:** Kaggle girişi gerektirdiği için Google'ın TensorFlow yansısından (`storage.googleapis.com/download.tensorflow.org/data/creditcard.csv`) indirildi. 17.11.2026'da Kaggle'dan doğrudan indirilen orijinal dosyayla SHA-256 özeti karşılaştırılmış, birebir eşleştiği doğrulanmıştır.
 - **SHA-256:** `76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89`
 
 SHA-256 özetini hesaplamak için (Windows PowerShell):
