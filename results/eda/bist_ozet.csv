@@ -7,6 +7,6 @@ eksik değer (toplam),216
 tekrar eden tarih,0
 tarih sıralı mı,True
 Volume==0 gün,2
-yükseliş günü oranı,0.5353
+yükseliş günü oranı,0.5486
 en büyük 5 mutlak getiri,"{Timestamp('2023-02-15 00:00:00'): 0.0988, Timestamp('2021-03-22 00:00:00'): 0.0979, Timestamp('2025-03-19 00:00:00'): 0.0872, Timestamp('2023-02-07 00:00:00'): 0.0862, Timestamp('2021-12-17 00:00:00'): 0.0852}"
-getiri ort./std,"(0.00122, 0.01588)"
+getiri ort./std,"(0.00124, 0.01599)"
