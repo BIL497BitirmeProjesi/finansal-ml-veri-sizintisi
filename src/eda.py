@@ -25,7 +25,8 @@ def bist_eda(yol=KOK / "data" / "raw" / "xu100.csv") -> pd.DataFrame:
         "Volume==0 gün": int((df.get("Volume", pd.Series(dtype=float)) == 0).sum()),
     }
     r = df["Close"].pct_change(fill_method=None)
-    yon = (df["Close"].shift(-1) > df["Close"]).iloc[:-1]
+    kapanis = df["Close"].dropna()  # tatil/boş günler yön hesabına girmesin
+    yon = (kapanis.shift(-1) > kapanis).iloc[:-1]
     ozet["yükseliş günü oranı"] = round(float(yon.mean()), 4)
     ozet["en büyük 5 mutlak getiri"] = r.abs().nlargest(5).round(4).to_dict()
     ozet["getiri ort./std"] = (round(float(r.mean()), 5), round(float(r.std()), 5))
