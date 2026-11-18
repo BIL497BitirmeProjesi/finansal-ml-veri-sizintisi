@@ -1,11 +1,11 @@
-# İlk çalışan kurulumdan sonra sürümler `pip freeze` ile sabitlenecek (tekrar üretilebilirlik).
-pandas
-numpy
-scikit-learn
-imbalanced-learn
-xgboost
-yfinance
-scipy
-matplotlib
-seaborn
-jupyter
+# Sürümler sabitlendi (tekrar üretilebilirlik). Python 3.10 ile denendi: 18.11.2026.
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+imbalanced-learn==0.14.2
+xgboost==3.2.0
+yfinance==1.8.0
+scipy==1.15.3
+matplotlib==3.10.9
+seaborn==0.13.2
+jupyter==1.1.1

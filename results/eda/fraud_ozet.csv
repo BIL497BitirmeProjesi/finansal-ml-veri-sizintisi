@@ -1,11 +1,16 @@
 ,değer
 satır,284807
 sütun,31
+veri türleri,float64: 30 sütun; Class: int64
 eksik değer (toplam),0
 tekrar eden satır,1081
+tekrar edenlerde dolandırıcılık,19
+Amount==0 işlem (dolandırıcılık),1825 (27)
 dolandırıcılık sayısı,492
 dolandırıcılık oranı,0.00173
+hepsine 0 diyen modelin doğruluğu,0.99827
 Time aralığı (saat),48.0
 son %20 testte işlem,56962
 son %20 testte dolandırıcılık,75
+kesim (saat),40.35
 Amount ort./medyan/maks,"(88.35, 22.0, 25691.16)"
