@@ -1,12 +1,20 @@
 ,değer
-satır,2536
+satır,2500
 sütun,6
-başlangıç,2016-10-03
-bitiş,2026-10-01
-eksik değer (toplam),216
+veri türleri,"float64: Adj Close, Close, High, Low, Open; int64: Volume"
+başlangıç,03.10.2016
+bitiş,01.10.2026
+eksik değer (toplam),0
+tamamen boş satır,0
 tekrar eden tarih,0
 tarih sıralı mı,True
-Volume==0 gün,2
-yükseliş günü oranı,0.5486
-en büyük 5 mutlak getiri,"{Timestamp('2023-02-15 00:00:00'): 0.0988, Timestamp('2021-03-22 00:00:00'): 0.0979, Timestamp('2025-03-19 00:00:00'): 0.0872, Timestamp('2023-02-07 00:00:00'): 0.0862, Timestamp('2021-12-17 00:00:00'): 0.0852}"
-getiri ort./std,"(0.00124, 0.01599)"
+Volume==0 gün,"2 (19.04.2019, 08.02.2023)"
+geçerli işlem günü,2500
+yükseliş günü oranı,0.5486 (1371/2499)
+getiri sayısı / ort. / std,2499 / 0.00124 / 0.01599
+en büyük 5 mutlak getiri,"15.02.2023: 0.0988, 22.03.2021: 0.0979, 19.03.2025: 0.0872, 07.02.2023: 0.0862, 17.12.2021: 0.0852"
+kapanış 24.07.2020,1192.02
+kapanış 27.07.2020,1195.7
+kapanış 28.07.2020,1152.7
+kronolojik test (gün),500 (01.10.2024 – 30.09.2026)
+testte yükseliş oranı,0.52
